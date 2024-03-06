@@ -40,9 +40,9 @@ body {
 
 .Weather .temperature {
     font-weight: bold;
-    font-size: 64px;
-    line-height: 84px;
-    padding: 10px 0 10px 10px;
+    font-size: 60px;
+    line-height: 70px;
+
 
 }
 
@@ -50,8 +50,9 @@ body {
     font-size: 26px;
     font-weight: 400;
     position: relative;
-    top: -34px;
-    margin-left: 5px;
+    top: -24px;
+
+
 }
 
 .Weather .conditions {
@@ -59,5 +60,10 @@ body {
     margin-top: 8px;
     font-weight: bold;
     color: #31D2F2;
+    margin-left: 50px;
 
+}
+
+.Weather .a {
+    text-decoration: none;
 }
