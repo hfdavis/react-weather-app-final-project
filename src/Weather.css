@@ -18,28 +18,32 @@ body {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
-    padding: 20px 0;
+    padding: 20px 0 5px 0px;
 }
 
 .Weather ul {
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
 }
 
 .Weather li {
     list-style: none;
+
 }
 
-.Weather img {
-    height: 78px;
+.Weather canvas {
+    height: 60px;
     float: left;
     display: inline-block;
+    margin: 10px;
 }
 
 .Weather .temperature {
     font-weight: bold;
     font-size: 64px;
-    line-height: 64px;
+    line-height: 84px;
+    padding: 10px 0 10px 10px;
+
 }
 
 .Weather .unit {
@@ -48,4 +52,12 @@ body {
     position: relative;
     top: -34px;
     margin-left: 5px;
+}
+
+.Weather .conditions {
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #31D2F2;
+
 }
