@@ -32,7 +32,7 @@ body {
 }
 
 .Weather canvas {
-    height: 60px;
+    height: 80px;
     float: left;
     display: inline-block;
     margin: 10px;
@@ -40,7 +40,7 @@ body {
 
 .Weather .temperature {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
 
 
@@ -62,8 +62,4 @@ body {
     color: #31D2F2;
     margin-left: 50px;
 
-}
-
-.Weather .a {
-    text-decoration: none;
 }
