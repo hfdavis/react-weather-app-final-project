@@ -29,6 +29,11 @@ body {
 .Weather li {
     list-style: none;
 
+
+}
+
+.Weather .col {
+    padding: 20px;
 }
 
 .Weather canvas {
