@@ -37,10 +37,14 @@ body {
 }
 
 .Weather canvas {
-    height: 40px;
+    height: 65px;
     float: left;
     display: inline-block;
     margin: 10px;
+}
+
+.WeatherForecast canvas {
+    height: 40px;
 }
 
 .Weather .temperature {
