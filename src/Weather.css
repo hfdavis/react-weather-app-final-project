@@ -39,7 +39,7 @@ body {
 .Weather canvas {
     height: 65px;
     float: left;
-    display: inline-block;
+
     margin: 10px;
 }
 
